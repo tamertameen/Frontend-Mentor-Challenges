@@ -136,7 +136,14 @@ dist
 # Design Documents
 *.sketch
 *.fig
+*.xd
 
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+# frontend mentor assets
+figma
+design
+style-guide.md
+README-template.md

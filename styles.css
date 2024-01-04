@@ -1,0 +1,52 @@
+:root {
+  /* dark mode user-agent-styles */
+  color-scheme: dark light;
+
+  /* colors */
+}
+
+*,
+*::before,
+*::after {
+  /* makes sizing simpler */
+  box-sizing: border-box;
+}
+
+* {
+  /* remove default spacing */
+  margin: 0;
+  padding: 0;
+
+  /* force styling of type through styling, rather than elements */
+  font: inherit;
+}
+
+html {
+  /* min height */
+  height: -webkit-fill-available; /* We have to fix html height */
+}
+
+body {
+  min-height: -webkit-fill-available;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+img,
+picture,
+svg,
+video {
+  /* responsive images/videos */
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+  border-radius: 5%;
+}
