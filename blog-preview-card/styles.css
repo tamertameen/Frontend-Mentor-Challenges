@@ -1,0 +1,82 @@
+:root {
+  /* dark mode user-agent-styles */
+  /* color-scheme: dark light; */
+
+  /* colors */
+--Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 50%);
+--Black: hsl(0, 0%, 7%);
+
+*,
+*::before,
+*::after {
+  /* makes sizing simpler */
+  box-sizing: border-box;
+}
+
+* {
+  /* remove default spacing */
+  margin: 0;
+  padding: 0;
+
+  /* force styling of type through styling, rather than elements */
+  font: inherit;
+}
+
+html {
+  /* min height */
+  height: -webkit-fill-available; /* We have to fix html height */
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--Yellow);
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  max-width: 20rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--White);
+  border-radius: 5%;
+}
+
+img,
+picture,
+svg,
+video {
+  /* responsive images/videos */
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+  border-radius: 5%;
+}
+
+.qr-code {
+  border-radius: 5%;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 2rem 0 0 0;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--grayish-blue);
+  margin: 1.5rem 1rem 1.5rem 1rem;
+}
