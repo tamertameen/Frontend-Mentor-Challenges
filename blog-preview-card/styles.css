@@ -1,21 +1,25 @@
 :root {
+  /* CSS Reset */
   /* dark mode user-agent-styles */
   /* color-scheme: dark light; */
 
   /* colors */
---Yellow: hsl(47, 88%, 63%);
---White: hsl(0, 0%, 100%);
---Grey: hsl(0, 0%, 50%);
---Black: hsl(0, 0%, 7%);
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
 
 *,
 *::before,
 *::after {
+  /* CSS Reset */
   /* makes sizing simpler */
   box-sizing: border-box;
 }
 
 * {
+  /* CSS Reset */
   /* remove default spacing */
   margin: 0;
   padding: 0;
@@ -25,7 +29,9 @@
 }
 
 html {
+  /* CSS Reset */
   /* min height */
+  hanging-punctuation: first last;
   height: -webkit-fill-available; /* We have to fix html height */
 }
 
@@ -37,30 +43,48 @@ body {
   place-items: center;
 }
 
-.card {
-  max-width: 20rem;
-  padding: 1rem;
-  text-align: center;
-  background-color: var(--White);
-  border-radius: 5%;
-}
-
 img,
 picture,
 svg,
 video {
+  /* CSS Reset */
   /* responsive images/videos */
   display: block;
   max-width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* CSS Reset */
+  text-wrap: balance;
+}
+
+p {
+  /* CSS Reset */
+  max-width: 75ch;
+  text-wrap: pretty;
+}
+
 img {
+  /* CSS Reset */
   height: auto;
   vertical-align: middle;
   font-style: italic;
   background-repeat: no-repeat;
   background-size: cover;
   shape-margin: 0.75rem;
+  border-radius: 5%;
+}
+
+.card {
+  max-width: 20rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--White);
   border-radius: 5%;
 }
 
@@ -79,4 +103,12 @@ p {
   font-weight: 400;
   color: var(--grayish-blue);
   margin: 1.5rem 1rem 1.5rem 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* CSS Reset */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+  }
 }
