@@ -1,25 +1,18 @@
+/* Start: Resetting CSS */
+
 :root {
-  /* CSS Reset */
   /* dark mode user-agent-styles */
   /* color-scheme: dark light; */
-
-  /* colors */
-  --Yellow: hsl(47, 88%, 63%);
-  --White: hsl(0, 0%, 100%);
-  --Grey: hsl(0, 0%, 50%);
-  --Black: hsl(0, 0%, 7%);
 }
 
 *,
 *::before,
 *::after {
-  /* CSS Reset */
   /* makes sizing simpler */
   box-sizing: border-box;
 }
 
 * {
-  /* CSS Reset */
   /* remove default spacing */
   margin: 0;
   padding: 0;
@@ -29,25 +22,15 @@
 }
 
 html {
-  /* CSS Reset */
   /* min height */
-  hanging-punctuation: first last;
+  /* hanging-punctuation: first last; */
   height: -webkit-fill-available; /* We have to fix html height */
-}
-
-body {
-  min-height: 100vh;
-  font-family: "Outfit", sans-serif;
-  background-color: var(--Yellow);
-  display: grid;
-  place-items: center;
 }
 
 img,
 picture,
 svg,
 video {
-  /* CSS Reset */
   /* responsive images/videos */
   display: block;
   max-width: 100%;
@@ -59,18 +42,15 @@ h3,
 h4,
 h5,
 h6 {
-  /* CSS Reset */
   text-wrap: balance;
 }
 
 p {
-  /* CSS Reset */
   max-width: 75ch;
   text-wrap: pretty;
 }
 
 img {
-  /* CSS Reset */
   height: auto;
   vertical-align: middle;
   font-style: italic;
@@ -80,10 +60,34 @@ img {
   border-radius: 5%;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+  }
+}
+
+/* End: Resetting CSS */
+
+:root {
+  /* colors */
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--Yellow);
+  display: grid;
+  place-items: center;
+}
+
 .card {
   max-width: 20rem;
   padding: 1rem;
-  text-align: center;
   background-color: var(--White);
   border-radius: 5%;
 }
@@ -105,10 +109,25 @@ p {
   margin: 1.5rem 1rem 1.5rem 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  /* CSS Reset */
-  html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 3rem;
-  }
+.avatar {
+}
+.descripion {
+}
+.title {
+}
+.publish-date {
+}
+
+.tag {
+  display: inline-block;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 5%;
+  font-weight: bold;
+  background-color: var(--Yellow);
+}
+
+.author {
 }
