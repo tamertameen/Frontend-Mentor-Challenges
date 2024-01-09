@@ -99,12 +99,12 @@ body {
 
 .tag {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   padding: 0.25rem 0.75rem 0.25rem 0.75rem;
   border-radius: 5%;
   background-color: var(--Yellow);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .publish-date {
