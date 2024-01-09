@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [QR code component](https://tamertameen.github.io/Frontend-Mentor-QR-Code/)
+- Solution URL: [QR code component](https://tamertameen.github.io/Frontend-Mentor-Challenges/QR-Code/)
 
 ## My process
 
@@ -33,5 +33,3 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Author
 
 - Frontend Mentor - [@tamertameen](https://www.frontendmentor.io/profile/tamertameen)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
