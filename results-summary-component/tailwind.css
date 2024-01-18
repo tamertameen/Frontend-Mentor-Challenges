@@ -2,25 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-layer base {
+@layer base {
   :root {
+    /* Test Opacity*/
+    --test-red: 0, 100%, 50%;
+    --test-red-1: 0, 100%, 50%, 1;
+    --test-red-0: 0, 100%, 50%, 0;
+
     /* Primary */
-    --Light_red: 255 87 87;
-    --Orangey_yellow: 255 177 31;
-    --Green_teal: 0 189 145;
-    --Cobalt_blue: 17 37 212;
+    --light-red: 0, 100%, 67%;
+    --orangey-yellow: 39, 100%, 56%;
+    --green-teal: 166, 100%, 37%;
+    --cobalt-blue: 234, 85%, 45%;
 
     /* Gradients */
-    --Light_slate_blue: 120 87 255;
-    --Light_royal_blue: 46 43 233;
-    --Violet_blue: 78 33 202;
-    --Persian_blue: 36 33 202 0;
+    --light-slate-blue: 252, 100%, 67%;
+    --light-royal-blue: 241, 81%, 54%;
+    --violet-blue: 256, 72%, 46%, 1;
+    --persian-blue: 241, 72%, 46%, 0;
 
     /* Neutral */
 
-    --White: 255 255 255;
-    --Pale_blue: 235 241 255;
-    --Light_lavender: 200 199 255;
-    --Dark_gray_blue: 48 59 90;
+    --white: 0, 0%, 100%;
+    --pale-blue: 221, 100%, 96%;
+    --light-lavender: 241, 100%, 89%;
+    --dark-gray-blue: 224, 30%, 27%;
   }
 }
