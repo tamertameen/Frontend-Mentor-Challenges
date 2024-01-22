@@ -4,28 +4,24 @@
 
 @layer base {
   :root {
-    /* Test Opacity*/
-    --test-red: 0, 100%, 50%;
-    --test-red-1: 0, 100%, 50%, 1;
-    --test-red-0: 0, 100%, 50%, 0;
+    /* Accents */
+    --clr-accent-hsl-1: 0, 100%, 67%;
+    --clr-accent-hsl-2: 39, 100%, 56%;
+    --clr-accent-hsl-3: 166, 100%, 37%;
+    --clr-accent-hsl-4: 234, 85%, 45%;
 
     /* Primary */
-    --light-red: 0, 100%, 67%;
-    --orangey-yellow: 39, 100%, 56%;
-    --green-teal: 166, 100%, 37%;
-    --cobalt-blue: 234, 85%, 45%;
+    --clr-primary-hsl-1: 252, 100%, 67%;
+    --clr-primary-hsl-2: 256, 72%, 46%, 1;
 
-    /* Gradients */
-    --light-slate-blue: 252, 100%, 67%;
-    --light-royal-blue: 241, 81%, 54%;
-    --violet-blue: 256, 72%, 46%, 1;
-    --persian-blue: 241, 72%, 46%, 0;
+    /* Secondary */
+    --clr-secondary-hsl-1: 241, 81%, 54%;
+    --clr-secondary-hsl-2: 241, 72%, 46%, 0;
 
     /* Neutral */
-
-    --white: 0, 0%, 100%;
-    --pale-blue: 221, 100%, 96%;
-    --light-lavender: 241, 100%, 89%;
-    --dark-gray-blue: 224, 30%, 27%;
+    --clr-neutral-hsl-1: 0, 0%, 100%;
+    --clr-neutral-hsl-2: 221, 100%, 96%;
+    --clr-neutral-hsl-3: 241, 100%, 89%;
+    --clr-neutral-hsl-4: 224, 30%, 27%;
   }
 }

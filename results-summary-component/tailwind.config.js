@@ -7,29 +7,21 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      /* Test Opacity*/
-      test_red: 'hsl(var(--test-red))',
-      test_red_1: 'hsl(var(--test-red-1))',
-      test_red_0: 'hsl(var(--test-red-0))',
+      clr_neutral_1: 'hsl(var(--clr-neutral-hsl-1))',
+      clr_neutral_2: 'hsl(var(--clr-neutral-hsl-2))',
+      clr_neutral_3: 'hsl(var(--clr-neutral-hsl-3))',
+      clr_neutral_4: 'hsl(var(--clr-neutral-hsl-4))',
 
-      /* Primary */
-      Primary_Light_Red: 'hsl(var(--light-red))',
-      Primary_Orangey_Yellow: 'hsl(var(--orangey-yellow))',
-      Primary_Green_Teal: 'hsl(var(--green-teal))',
-      Primary_Cobalt_Blue: 'hsl(var(--cobalt-blue))',
+      clr_primary_1: 'hsl(var(--clr-primary-hsl-1))',
+      clr_primary_2: 'hsl(var(--clr-primary-hsl-2))',
 
-      /* Gradients */
-      Gradient_Slate_Blue: 'hsl(var(--light-slate-blue))',
-      Gradient_Royal_Blue: 'hsl(var(--light-royal-blue))',
-      Gradient_Violet_Blue: 'hsl(var(--violet-blue))',
-      Gradient_Persian_Blue: 'hsl(var(--persian-blue))',
+      clr_secondary_1: 'hsl(var(--clr-secondary-hsl-1))',
+      clr_secondary_2: 'hsl(var(--clr-secondary-hsl-2))',
 
-      /* Neutral */
-
-      Neutral_White: 'hsl(var(--white))',
-      Neutral_Pale_Blue: 'hsl(var(--pale-blue))',
-      Neutral_Light_Lavender: 'hsl(var(--light-lavender))',
-      Neutral_Dark_Gray_Blue: 'hsl(var(--dark-gray-blue))',
+      clr_accent_1: 'hsl(var(--clr-accent-hsl-1))',
+      clr_accent_2: 'hsl(var(--clr-accent-hsl-2))',
+      clr_accent_3: 'hsl(var(--clr-accent-hsl-3))',
+      clr_accent_4: 'hsl(var(--clr-accent-hsl-4))',
     },
     extend: {
       fontFamily: {
