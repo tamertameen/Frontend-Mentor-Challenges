@@ -611,15 +611,6 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.text-clr_neutral_4 {
-  color: hsl(var(--clr-neutral-hsl-4));
-}
-.text-clr_neutral_1 {
-  color: hsl(var(--clr-neutral-hsl-1));
-}
-.text-clr_neutral_2 {
-  color: hsl(var(--clr-neutral-hsl-2));
-}
 .text-clr_neutral_3 {
   color: hsl(var(--clr-neutral-hsl-3));
 }

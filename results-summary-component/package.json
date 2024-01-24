@@ -13,6 +13,10 @@
     "tailwind:css": "postcss ./tailwind.css -o ./public/styles.css --watch",
     "tailwind": "tailwindcss -i ./tailwind.css -o ./public/styles.css --watch"
   },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ],
   "type": "module",
   "version": "1.0.0",
   "description": "Frontend Mentor - Results summary component",
