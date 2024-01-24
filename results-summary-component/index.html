@@ -20,14 +20,14 @@
   </head>
 
   <body
-    class="md:grid md:place-items-center md:min-h-screen p-0 font-Hanken text-lg text-clr_neutral_4"
+    class="md:grid md:place-items-center md:min-h-screen box-border p-0 font-Hanken text-lg leading-tight text-clr_neutral_4"
   >
     <main>
       <div
         class="md:overflow-hidden md:rounded-4xl md:grid-cols-2 md:shadow-neutral_4 md:me-4 md:ms-4 max-w-mw_46 m-0 grid"
       >
         <div
-          class="md:rounded-xl grid place-content-start gap-8 rounded-b-xl bg-gradient-to-b from-clr_primary_1 to-clr_secondary_1 p-14 text-center text-clr_neutral_1/70"
+          class="md:rounded-4xl grid place-content-start gap-8 rounded-b-xl bg-gradient-to-b from-clr_primary_1 to-clr_secondary_1 px-14 py-10 text-center text-clr_neutral_1/70"
         >
           <h1 class="text-2xl font-bold">Your Result</h1>
           <p
@@ -40,7 +40,7 @@
             of 100
           </p>
 
-          <div class="grid place-content-start gap-4">
+          <div class="grid gap-4">
             <p class="text-fs_700 font-bold text-clr_neutral_1">Great</p>
             <p>
               You scored higher than 65% of the people who have taken these
@@ -49,14 +49,16 @@
           </div>
         </div>
 
-        <div class="summary grid-flow" data-spacing="large">
+        <div class="grid gap-8 p-10">
           <h2 class="text-2xl font-bold">Summary</h2>
 
-          <div class="grid-flow">
-            <div class="summary-item" data-item-type="accent-1">
-              <div class="flex-group">
+          <div class="grid gap-4">
+            <div
+              class="flex items-center justify-between rounded-lg bg-clr_accent_1/10 p-4"
+            >
+              <div class="flex flex-wrap items-center gap-2">
                 <svg
-                  class="summary-icon"
+                  class="stroke-clr_accent_1"
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="20"
@@ -70,14 +72,18 @@
                     d="M10.833 8.333V2.5l-6.666 9.167h5V17.5l6.666-9.167h-5Z"
                   />
                 </svg>
-                <h3 class="summary-item-title">Reaction</h3>
+                <h3 class="font-bold text-clr_accent_1">Reaction</h3>
               </div>
-              <p class="summary-score"><span>80</span> / 100</p>
+              <p class="font-extrabold text-clr_neutral_4/50">
+                <span class="text-clr_neutral_4">80</span> / 100
+              </p>
             </div>
-            <div class="summary-item" data-item-type="accent-2">
-              <div class="flex-group">
+            <div
+              class="flex items-center justify-between rounded-lg bg-clr_accent_2/10 p-4"
+            >
+              <div class="flex flex-wrap items-center gap-2">
                 <svg
-                  class="summary-icon"
+                  class="stroke-clr_accent_2"
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="20"
@@ -103,14 +109,18 @@
                     d="M16.447 13.004a3.334 3.334 0 0 0 .728-5.53m-.025-.067a2.083 2.083 0 0 0-2.983-2.824M10 3.75a2.085 2.085 0 0 1 2.538-2.033 2.084 2.084 0 0 1 1.43 2.92m-.635 12.03a1.667 1.667 0 0 1-3.333 0"
                   />
                 </svg>
-                <h3 class="summary-item-title">Memory</h3>
+                <h3 class="font-bold text-clr_accent_2">Memory</h3>
               </div>
-              <p class="summary-score"><span>92</span> / 100</p>
+              <p class="font-extrabold text-clr_neutral_4/50">
+                <span class="text-clr_neutral_4">92</span> / 100
+              </p>
             </div>
-            <div class="summary-item" data-item-type="accent-3">
-              <div class="flex-group">
+            <div
+              class="flex items-center justify-between rounded-lg bg-clr_accent_3/10 p-4"
+            >
+              <div class="flex flex-wrap items-center gap-2">
                 <svg
-                  class="summary-icon"
+                  class="stroke-clr_accent_3"
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="20"
@@ -124,14 +134,18 @@
                     d="M7.5 10h5M10 18.333A8.333 8.333 0 1 0 1.667 10c0 1.518.406 2.942 1.115 4.167l-.699 3.75 3.75-.699A8.295 8.295 0 0 0 10 18.333Z"
                   />
                 </svg>
-                <h3 class="summary-item-title">Verbal</h3>
+                <h3 class="font-bold text-clr_accent_3">Verbal</h3>
               </div>
-              <p class="summary-score"><span>61</span> / 100</p>
+              <p class="font-extrabold text-clr_neutral_4/50">
+                <span class="text-clr_neutral_4">61</span> / 100
+              </p>
             </div>
-            <div class="summary-item" data-item-type="accent-4">
-              <div class="flex-group">
+            <div
+              class="flex items-center justify-between rounded-lg bg-clr_accent_4/10 p-4"
+            >
+              <div class="flex flex-wrap items-center gap-2">
                 <svg
-                  class="summary-icon"
+                  class="stroke-clr_accent_4"
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="20"
@@ -151,13 +165,19 @@
                     d="M17.5 10c-1.574 2.492-4.402 5-7.5 5s-5.926-2.508-7.5-5C4.416 7.632 6.66 5 10 5s5.584 2.632 7.5 5Z"
                   />
                 </svg>
-                <h3 class="summary-item-title">Visual</h3>
+                <h3 class="font-bold text-clr_accent_4">Visual</h3>
               </div>
-              <p class="summary-score"><span>72</span> / 100</p>
+              <p class="font-extrabold text-clr_neutral_4/50">
+                <span class="text-clr_neutral_4">72</span> / 100
+              </p>
             </div>
           </div>
 
-          <button class="button">Continue</button>
+          <button
+            class="button rounded-5xl cursor-pointer border-none bg-clr_neutral_4 px-8 py-4 leading-normal text-clr_neutral_1 hover:bg-gradient-to-b hover:from-clr_primary_1 hover:to-clr_secondary_1"
+          >
+            Continue
+          </button>
         </div>
       </div>
     </main>

@@ -26,6 +26,7 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
+        '5xl': '100vw',
       },
       boxShadow: {
         neutral_4: '0.5rem 1rem 3rem hsl(224, 30%, 27%, 0.2)',
