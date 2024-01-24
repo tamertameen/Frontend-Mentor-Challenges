@@ -24,6 +24,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.33",
+    "postcss-100vh-fix": "^1.0.2",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.0.0",
     "prettier": "^3.1.1",
