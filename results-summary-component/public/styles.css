@@ -577,6 +577,10 @@ video {
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
 }
+.rounded-b-4xl {
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
 .border-none {
   border-style: none;
 }
@@ -689,6 +693,9 @@ video {
 }
 .leading-tight {
   line-height: 1.25;
+}
+.leading-snug {
+  line-height: 1.375;
 }
 .text-clr_accent_1 {
   --tw-text-opacity: 1;
