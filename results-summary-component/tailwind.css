@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Accents */
+    --clr-accent-hsl-1: 0deg 100% 67%;
+    --clr-accent-hsl-2: 39deg 100% 56%;
+    --clr-accent-hsl-3: 166deg 100% 37%;
+    --clr-accent-hsl-4: 234deg 85% 45%;
+
+    /* Primary */
+    --clr-primary-hsl-1: 252deg 100% 67%;
+    --clr-primary-hsl-2: 256deg 72% 46%;
+
+    /* Secondary */
+    --clr-secondary-hsl-1: 241deg 81% 54%;
+    --clr-secondary-hsl-2: 241deg 72% 46%;
+
+    /* Neutral */
+    --clr-neutral-hsl-1: 0deg 0% 100%;
+    --clr-neutral-hsl-2: 221deg 100% 96%;
+    --clr-neutral-hsl-3: 241deg 100% 89%;
+    --clr-neutral-hsl-4: 224deg 30% 27%;
+  }
+}
