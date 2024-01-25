@@ -583,6 +583,9 @@ video {
 .self-center {
   align-self: center;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 .rounded-xl {
   border-radius: 0.75rem;
 }

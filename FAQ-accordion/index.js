@@ -1,26 +1,29 @@
+let question
+
 document.addEventListener('DOMContentLoaded', function (e) {
   toggleQuestions()
 })
 
 function toggleQuestions() {
   document.getElementById('q1').addEventListener('click', function () {
-    document.getElementById('q1-answer').classList.toggle('hidden')
-    document.getElementById('q1-plus').classList.toggle('hidden')
-    document.getElementById('q1-minus').classList.toggle('hidden')
+    togglestuff('q1')
   })
+
   document.getElementById('q2').addEventListener('click', function () {
-    document.getElementById('q2-answer').classList.toggle('hidden')
-    document.getElementById('q2-plus').classList.toggle('hidden')
-    document.getElementById('q2-minus').classList.toggle('hidden')
+    togglestuff('q2')
   })
+
   document.getElementById('q3').addEventListener('click', function () {
-    document.getElementById('q3-answer').classList.toggle('hidden')
-    document.getElementById('q3-plus').classList.toggle('hidden')
-    document.getElementById('q3-minus').classList.toggle('hidden')
+    togglestuff('q3')
   })
+
   document.getElementById('q4').addEventListener('click', function () {
-    document.getElementById('q4-answer').classList.toggle('hidden')
-    document.getElementById('q4-plus').classList.toggle('hidden')
-    document.getElementById('q4-minus').classList.toggle('hidden')
+    togglestuff('q4')
   })
+}
+
+function togglestuff(question) {
+  document.getElementById(`${question}-answer`).classList.toggle('hidden')
+  document.getElementById(`${question}-plus`).classList.toggle('hidden')
+  document.getElementById(`${question}-minus`).classList.toggle('hidden')
 }
