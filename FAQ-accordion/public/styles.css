@@ -673,6 +673,18 @@ video {
   --tw-text-opacity: 1;
   color: hsl(var(--clr-secondary-hsl) / var(--tw-text-opacity));
 }
+.text-clr_secondary\/50 {
+  color: hsl(var(--clr-secondary-hsl) / 0.5);
+}
+.text-clr_primary\/50 {
+  color: hsl(var(--clr-primary-hsl) / 0.5);
+}
+.text-clr_secondary\/70 {
+  color: hsl(var(--clr-secondary-hsl) / 0.7);
+}
+.text-clr_secondary\/60 {
+  color: hsl(var(--clr-secondary-hsl) / 0.6);
+}
 
 .group:hover .group-hover\:fill-clr_primary {
   fill: hsl(var(--clr-primary-hsl) / 1);
