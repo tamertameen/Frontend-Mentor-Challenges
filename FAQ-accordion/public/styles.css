@@ -559,6 +559,10 @@ video {
 .w-7 {
   width: 1.75rem;
 }
+.select-none {
+  -webkit-user-select: none;
+          user-select: none;
+}
 .grid-cols-8 {
   grid-template-columns: repeat(8, minmax(0, 1fr));
 }
