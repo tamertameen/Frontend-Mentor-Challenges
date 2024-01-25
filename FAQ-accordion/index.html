@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="public/styles.css" />
+    <link rel="stylesheet" href="./public/styles.css" />
     <link
       rel="icon"
       type="image/png"
@@ -40,7 +40,10 @@
           <img class="w-9" src="assets/images/icon-star.svg" alt="" />
           <h1 class="text-5xl font-bold text-clr_secondary">FAQs</h1>
         </div>
-        <div class="q1 border-b-2 border-clr_accent/70 px-6 py-6 md:px-2">
+
+        <!-- Question 1 -->
+
+        <div class="border-b-2 border-clr_accent/70 px-6 py-6 md:px-2" id="q1">
           <div class="group grid grid-cols-8">
             <h2
               class="col-span-6 justify-end font-semibold text-clr_secondary group-hover:text-clr_primary md:col-span-7"
@@ -48,6 +51,7 @@
               What is Frontend Mentor, and how will it help me?
             </h2>
             <svg
+              id="q1-plus"
               class="col-start-8 hidden w-7 place-self-center fill-clr_secondary group-hover:fill-clr_primary md:place-self-end"
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -61,6 +65,7 @@
               />
             </svg>
             <svg
+              id="q1-minus"
               class="col-start-8 w-7 place-self-center fill-clr_primary md:place-self-end"
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -74,14 +79,17 @@
               />
             </svg>
           </div>
-          <p class="">
+          <p class="hidden" id="q1-answer">
             Frontend Mentor offers realistic coding challenges to help
             developers improve their frontend coding skills with projects in
             HTML, CSS, and JavaScript. It's suitable for all levels and ideal
             for portfolio building.
           </p>
         </div>
-        <div class="q2 border-b-2 border-clr_accent/70 px-6 py-6 md:px-2">
+
+        <!-- Question 2 -->
+
+        <div class="border-b-2 border-clr_accent/70 px-6 py-6 md:px-2" id="q2">
           <div class="group grid grid-cols-8">
             <h2
               class="col-span-6 justify-end font-semibold text-clr_secondary group-hover:text-clr_primary md:col-span-7"
@@ -89,6 +97,7 @@
               Is Frontend Mentor free?
             </h2>
             <svg
+              id="q2-plus"
               class="col-start-8 hidden w-7 place-self-center fill-clr_secondary group-hover:fill-clr_primary md:place-self-end"
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -102,6 +111,7 @@
               />
             </svg>
             <svg
+              id="q2-minus"
               class="col-start-8 w-7 place-self-center fill-clr_primary md:place-self-end"
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -115,13 +125,16 @@
               />
             </svg>
           </div>
-          <p class="hidden">
+          <p class="hidden" id="q2-answer">
             Yes, Frontend Mentor offers both free and premium coding challenges,
             with the free option providing access to a range of projects
             suitable for all skill levels.
           </p>
         </div>
-        <div class="q3 border-b-2 border-clr_accent/70 px-6 py-6 md:px-2">
+
+        <!-- Question 3 -->
+
+        <div class="border-b-2 border-clr_accent/70 px-6 py-6 md:px-2" id="q3">
           <div class="group grid grid-cols-8">
             <h2
               class="col-span-6 justify-end font-semibold text-clr_secondary group-hover:text-clr_primary md:col-span-7"
@@ -129,6 +142,7 @@
               Can I use Frontend Mentor projects in my portfolio?
             </h2>
             <svg
+              id="q3-plus"
               class="col-start-8 hidden w-7 place-self-center fill-clr_secondary group-hover:fill-clr_primary md:place-self-end"
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -142,6 +156,7 @@
               />
             </svg>
             <svg
+              id="q3-minus"
               class="col-start-8 w-7 place-self-center fill-clr_primary md:place-self-end"
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -155,13 +170,16 @@
               />
             </svg>
           </div>
-          <p class="hidden">
+          <p class="hidden" id="q3-answer">
             Yes, you can use projects completed on Frontend Mentor in your
             portfolio. It's an excellent way to showcase your skills to
             potential employers!
           </p>
         </div>
-        <div class="q4 border-b-2 border-clr_accent/70 px-6 py-6 md:px-2">
+
+        <!-- Question 4 -->
+
+        <div class="border-b-2 border-clr_accent/70 px-6 py-6 md:px-2" id="q4">
           <div class="group grid grid-cols-8">
             <h2
               class="col-span-6 justify-end font-semibold text-clr_secondary group-hover:text-clr_primary md:col-span-7"
@@ -169,6 +187,7 @@
               How can I get help if I'm stuck on a challenge?
             </h2>
             <svg
+              id="q4-plus"
               class="col-start-8 hidden w-7 place-self-center fill-clr_secondary group-hover:fill-clr_primary md:place-self-end"
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -182,6 +201,7 @@
               />
             </svg>
             <svg
+              id="q4-minus"
               class="col-start-8 w-7 place-self-center fill-clr_primary md:place-self-end"
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -195,7 +215,7 @@
               />
             </svg>
           </div>
-          <p class="hidden">
+          <p class="hidden" id="q4-answer">
             The best place to get help is inside Frontend Mentor's Discord
             community. There's a help channel where you can ask questions and
             seek support from other community members.
@@ -204,5 +224,6 @@
       </div>
     </main>
   </body>
+  <script src="./index.js" type="text/javascript"></script>
 </html>
 
