@@ -1,6 +1,6 @@
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
-*//*
+*/ /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
@@ -35,7 +35,8 @@ html,
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
   tab-size: 4; /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -69,7 +70,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -115,7 +116,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace; /* 1 */
   font-feature-settings: normal; /* 2 */
   font-variation-settings: normal; /* 3 */
   font-size: 1em; /* 4 */
@@ -343,7 +345,7 @@ Set the default cursor for buttons.
 */
 
 button,
-[role="button"] {
+[role='button'] {
   cursor: pointer;
 }
 
@@ -386,14 +388,16 @@ video {
 [hidden] {
   display: none;
 }
-  :root {
-    --clr-accent-hsl: 275deg 100% 97%;
-    --clr-primary-hsl: 292deg 100% 49%;
-    --clr-secondary-hsl: 292deg 42% 14%;
-    --clr-neutral-hsl: 0deg 0% 100%;
-  }
+:root {
+  --clr-accent-hsl: 275deg 100% 97%;
+  --clr-primary-hsl: 292deg 100% 49%;
+  --clr-secondary-hsl: 292deg 42% 14%;
+  --clr-neutral-hsl: 0deg 0% 100%;
+}
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -561,7 +565,7 @@ video {
 }
 .select-none {
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .grid-cols-8 {
   grid-template-columns: repeat(8, minmax(0, 1fr));
@@ -656,7 +660,9 @@ video {
   padding-top: 3rem;
 }
 .font-WorkSans {
-  font-family: Work Sans, sans-serif;
+  font-family:
+    Work Sans,
+    sans-serif;
 }
 .text-5xl {
   font-size: 3rem;
@@ -703,7 +709,6 @@ video {
 }
 
 @media (min-width: 768px) {
-
   .md\:bottom-36 {
     bottom: 9rem;
   }
@@ -729,7 +734,6 @@ video {
   }
 
   @supports (-webkit-touch-callout: none) {
-
     .md\:max-h-screen {
       max-height: -webkit-fill-available;
     }
@@ -740,7 +744,6 @@ video {
   }
 
   @supports (-webkit-touch-callout: none) {
-
     .md\:min-h-screen {
       min-height: -webkit-fill-available;
     }
@@ -779,3 +782,4 @@ video {
     padding-bottom: 0.5rem;
   }
 }
+
