@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --clr-primary-hsl: 25deg 97% 53%;
+    --clr-secondary-1-hsl: 213deg 19% 18%;
+
+    --clr-accent-hsl: 275deg 100% 97%;
+    --clr-neutral-hsl: 0deg 0% 100%;
+  }
+}
