@@ -4,10 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        clr_neutral: 'hsl(var(--clr-neutral-hsl) / <alpha-value>)',
         clr_primary: 'hsl(var(--clr-primary-hsl) / <alpha-value>)',
-        clr_secondary: 'hsl(var(--clr-secondary-hsl) / <alpha-value>)',
-        clr_accent: 'hsl(var(--clr-accent-hsl) / <alpha-value>)',
+        clr_secondary_1: 'hsl(var(--clr-secondary-1-hsl) / <alpha-value>)',
+        clr_secondary_2: 'hsl(var(--clr-secondary-2-hsl) / <alpha-value>)',
+        clr_secondary_3: 'hsl(var(--clr-secondary-3-hsl) / <alpha-value>)',
+        clr_secondary_4: 'hsl(var(--clr-secondary-4-hsl) / <alpha-value>)',
+        clr_neutral: 'hsl(var(--clr-neutral-hsl) / <alpha-value>)',
       },
 
       fontFamily: {
@@ -18,7 +20,7 @@ module.exports = {
         '5xl': '100vw',
       },
       boxShadow: {
-        neutral_4: '0.5rem 1rem 3rem hsl(224, 30%, 27%, 0.2)',
+        secondary_1: '0.5rem 1rem 3rem hsl(224, 30%, 27%, 0.2)',
       },
       fontSize: {
         fs_700: '1.75rem',
