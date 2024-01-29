@@ -387,9 +387,10 @@ video {
   display: none;
 }
   :root {
+    --clr-primary-hsl: 25deg 97% 53%;
+    --clr-secondary-1-hsl: 213deg 19% 18%;
+
     --clr-accent-hsl: 275deg 100% 97%;
-    --clr-primary-hsl: 292deg 100% 49%;
-    --clr-secondary-hsl: 292deg 42% 14%;
     --clr-neutral-hsl: 0deg 0% 100%;
   }
 
