@@ -13,7 +13,7 @@ module.exports = {
       },
 
       fontFamily: {
-        WorkSans: 'Overpass, sans-serif',
+        Overpass: 'Overpass, sans-serif',
       },
       borderRadius: {
         '4xl': '2rem',
