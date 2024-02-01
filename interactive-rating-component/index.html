@@ -20,13 +20,13 @@
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body
-    class="bg-clr_secondary_4 font-Overpass text-clr_secondary_2 box-border p-0 text-base leading-tight md:grid md:min-h-screen md:place-items-center"
+    class="box-border bg-clr_secondary_4 p-0 font-Overpass text-base leading-tight text-clr_secondary_2 md:grid md:min-h-screen md:place-items-center"
   >
     <main class="h-64 w-88">
       <div
-        class="bg-clr_secondary_3/50 grid w-80 grid-rows-5 rounded-3xl px-6 py-4"
+        class="grid w-80 grid-rows-5 rounded-3xl bg-clr_secondary_3/50 px-6 py-4"
       >
-        <div class="bg-clr_secondary_3 grid h-10 w-10 self-center rounded-full">
+        <div class="grid h-10 w-10 self-center rounded-full bg-clr_secondary_3">
           <svg
             class="place-self-center"
             width="17"
@@ -47,33 +47,74 @@
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
-        <div class="grid grid-cols-5 place-content-evenly py-2 text-sm">
-          <button
-            class="bg-clr_secondary_3 h-10 w-10 rounded-full hover:bg-clr_primary hover:text-clr_neutral"
+
+        <!-- Rating Selections -->
+        <fieldset class="grid grid-cols-5 place-content-evenly py-2 text-sm">
+          <input
+            id="rating1"
+            type="radio"
+            name="rating"
+            class="peer/rating1 hidden"
+          />
+          <label
+            for="rating1"
+            class="group relative flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-clr_secondary_3 hover:bg-clr_primary hover:text-clr_neutral peer-checked/rating1:bg-clr_secondary_1 peer-checked/rating1:text-clr_neutral"
           >
-            1
-          </button>
-          <button
-            class="bg-clr_secondary_3 h-10 w-10 rounded-full hover:bg-clr_primary hover:text-clr_neutral"
+            <span>1</span>
+          </label>
+
+          <input
+            id="rating2"
+            type="radio"
+            name="rating"
+            class="peer/rating2 hidden"
+          />
+          <label
+            for="rating2"
+            class="group relative flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-clr_secondary_3 hover:bg-clr_primary hover:text-clr_neutral peer-checked/rating2:bg-clr_secondary_1 peer-checked/rating2:text-clr_neutral"
           >
-            2
-          </button>
-          <button
-            class="bg-clr_secondary_3 h-10 w-10 rounded-full hover:bg-clr_primary hover:text-clr_neutral"
+            <span>2</span>
+          </label>
+
+          <input
+            id="rating3"
+            type="radio"
+            name="rating"
+            class="peer/rating3 hidden"
+          />
+          <label
+            for="rating3"
+            class="group relative flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-clr_secondary_3 hover:bg-clr_primary hover:text-clr_neutral peer-checked/rating3:bg-clr_secondary_1 peer-checked/rating3:text-clr_neutral"
           >
-            3
-          </button>
-          <button
-            class="bg-clr_secondary_3 h-10 w-10 rounded-full hover:bg-clr_primary hover:text-clr_neutral"
+            <span>3</span>
+          </label>
+
+          <input
+            id="rating4"
+            type="radio"
+            name="rating"
+            class="peer/rating4 hidden"
+          />
+          <label
+            for="rating4"
+            class="group relative flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-clr_secondary_3 hover:bg-clr_primary hover:text-clr_neutral peer-checked/rating4:bg-clr_secondary_1 peer-checked/rating4:text-clr_neutral"
           >
-            4
-          </button>
-          <button
-            class="bg-clr_secondary_3 h-10 w-10 rounded-full hover:bg-clr_primary hover:text-clr_neutral"
+            <span>4</span>
+          </label>
+
+          <input
+            id="rating5"
+            type="radio"
+            name="rating"
+            class="peer/rating5 hidden"
+          />
+          <label
+            for="rating5"
+            class="group relative flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-clr_secondary_3 hover:bg-clr_primary hover:text-clr_neutral peer-checked/rating5:bg-clr_secondary_1 peer-checked/rating5:text-clr_neutral"
           >
-            5
-          </button>
-        </div>
+            <span>5</span>
+          </label>
+        </fieldset>
         <button
           class="h-8 w-64 self-center rounded-full bg-clr_primary text-clr_neutral hover:bg-clr_neutral hover:text-clr_primary"
         >
