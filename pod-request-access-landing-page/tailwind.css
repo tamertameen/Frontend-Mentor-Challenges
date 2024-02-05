@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --clr-primary-hsl: 157deg 74% 62%;
+    --clr-hover-hsl: 157deg 100% 85%;
+
+    --clr-secondary-1-hsl: 225deg 26% 23%;
+    --clr-secondary-2-hsl: 224deg 35% 11%;
+    --clr-secondary-3-hsl: 225deg 21% 45%;
+    --clr-secondary-4-hsl: 225deg 40% 83%;
+
+    --clr-neutral-hsl: 0deg 0% 100%;
+  }
+}
